@@ -16,6 +16,7 @@ default values:
   content: 'My Content'     
 
 Example Playbook for check module with role
+```Ansible
 ----------------
 ---
 - name: test my new module  
@@ -26,5 +27,7 @@ Example Playbook for check module with role
   hosts: localhost   
   roles:   
     - kaa.kaa_collection.kaa_own_role   
-    
+```
+
+
     
